@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #ECECEC;
+}
+
+
+/* first part */
+
+.header {
+    background-color: white;
+    padding: 19px 0 20px 0;
+    box-shadow: 0px 3px 17px 2px rgba(34, 60, 80, 0.2);
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__img{
+
+}
+
+.nav__list{
+    display: flex;  
+    flex-direction: row;
+}
+
+.nav__list-item{
+    list-style: none;
+    margin-left: 42px;
+}
+
+.nav__list-item__link{
+    text-decoration: none;
+    color: #676767;
+    font-size: 16px;
+}
+
+/* main content */
+
+.main{
+    background: url(./img/Background.png) center no-repeat;
+    background-size: cover;
+    height: 384px;
+    padding-top: 170px;
+}
+
+.main__content{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.main__content-text{
+    color: white;
+    font-size: 52px;
+    text-transform: uppercase;
+    margin-bottom: 44px;
+}
+
+.main__content-text-title{
+    font-weight: 400;
+}
+
+.main__content-text-subtitle{
+    font-weight: 300;
+}
+
+.main__content-button{
+    font-size: 34px;
+    text-decoration: none;
+    color: white;
+    background-color: yellowgreen;
+    padding: 15px 54px 17px 55px;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.places__visit{
+    background-color: white;
+    padding: 25px 25px 21px 25px;
+    width: 430px;
+    margin: 70px 0 60px 0;
+    border-radius: 5px;
+    border-bottom: 7px solid #51C03D;
+}
+
+.places__visit-main-text_container{
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+.places__visit-main-text{
+    color: #929292;
+    font-size: 22px;
+}
+
+.places__visit__card{
+    text-align: center;
+}
+
+.places__visit__card-item{
+    color: #929292;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 8px 6px 0;
+}
+
+.places__visit__card__first-part{
+    display: flex;
+    flex-direction: row;
+}
+
+.places__visit__card__second-part{
+    display: flex;
+    flex-direction: row;
+}
+
+.places__visit-container{
+    display: flex;
+    justify-content: center;
+}
+
+.places__visit__card-item__img{
+    margin-bottom: 6px;
+}
+
+.places__visit__card-item__text{
+    font-size: 14px;
+}
+
+/* our life */
+
+.section__our-life{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 76px;
+}
+
+.our-life_cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.our-life_cards__item{
+    text-align: center;
+    margin-right: 72px;
+}
+
+.our-life_cards__item-img{
+    margin: 0 0 18px 0;
+}
+
+.our-life_cards__item-text{
+
+}
+
+.section__our-life__main-text{
+    text-align: center;
+    font-size: 26px;
+    color: #7E7C7C;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+.section__our-life__secondary-text{
+    margin-bottom: 52px;
+    font-size: 23px;
+    color: #7E7C7C;
+    font-weight: 400;
+}
+
+.section__our-life_main-content{
+    text-align: center;
+}
+
+.footer__link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.footer__link-container{
+    display: flex;
+    justify-content: center;
+    background-color: #414141;
+    padding: 8px 0 8px 0;
+}
+footer {
+
+}
